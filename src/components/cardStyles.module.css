@@ -1,0 +1,65 @@
+.card {
+    border: 1px solid #fff;
+    max-width: 500px;
+    width: 95%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h2 {
+        text-transform: capitalize;
+    }
+
+    & img {
+        max-width: 95%;
+        height: auto;
+    }
+}
+
+.containerCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    font-size: 2rem;
+    max-width: 80%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.textLoading {
+    font-size: 1.6rem;
+    transition: all 300ms ease-in-out;
+
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.8;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    75% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
