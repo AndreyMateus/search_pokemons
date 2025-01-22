@@ -1,8 +1,18 @@
-# React + Vite
+# Search pokemons 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**O Projeto utiliza:** React + Vite.
 
-Currently, two official plugins are available:
+Acessando o Projeto Online: [Clique aqui](https://procurepokemons.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Requisitos obrigatórios para rodar o projeto:**
+Node 18.0+
+
+**Como rodar o projeto no seu computador:**
+
+`1 -  Entre dentro da pasta do projeto.`
+
+`2 - execute um "npm i" ou "npm install".`
+
+`3 - execute um "npm run dev".`
+
+`4 - Acesse o link do localhost que será gerado via CONSOLE.`
