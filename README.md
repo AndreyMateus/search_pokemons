@@ -9,7 +9,9 @@ Node 18.0+
 
 **Como rodar o projeto no seu computador:**
 
-`1 -  Entre dentro da pasta do projeto.`
+`0 - baixe o projeto em seu computador`
+
+`1 -  Entre dentro da pasta do projeto. (via CLI/TERMINAL)`
 
 `2 - execute um "npm i" ou "npm install".`
 
